@@ -1,4 +1,4 @@
-(defproject weavejester/dependency "0.2.1-SNAPSHOT"
+(defproject weavejester/dependency "0.2.1"
   :description "A data structure for representing dependency graphs"
   :url "https://github.com/weavejester/dependency"
   :license {:name "Eclipse Public License"

@@ -21,11 +21,11 @@ use it without adding a dependency on all of tools.namespace.
 
 ## Releases and Dependency Information
 
-This library is released on [Clojars]. Latest release is 0.2.0
+This library is released on [Clojars]. Latest release is 0.2.1
 
 [Leiningen] dependency information:
 
-    [com.stuartsierra/dependency "0.2.0"]
+    [weavejester/dependency "0.2.1"]
 
 [Clojars]: http://clojars.org/
 [Leiningen]: http://leiningen.org/
@@ -91,6 +91,8 @@ All changes must go through [tools.namespace] and the Clojure
 
 ## Change Log
 
+* Release 0.2.1 on 21-Jan-2018
+  * Add secondary comparator to `topo-sort` for deterministic ordering
 * Release 0.2.0 on 18-Sept-2015
   * Convert to `.cljc` for ClojureScript support
   * Apply enhancements and fixes up to [tools.namespace]
