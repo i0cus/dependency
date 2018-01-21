@@ -8,7 +8,7 @@
 
 (ns ^{:author "Stuart Sierra"
       :doc "Bidirectional graphs of dependencies and dependent objects."}
-  com.stuartsierra.dependency
+  weavejester.dependency
   (:require [clojure.set :as set]))
 
 (defprotocol DependencyGraph
