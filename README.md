@@ -45,7 +45,7 @@ Clojure versions 1.3.0, 1.4.0, and 1.5.1.
 
 ## Usage
 
-    (require '[com.stuartsierra.dependency :as dep])
+    (require '[weavejester.dependency :as dep])
 
 Create a new dependency graph:
 
